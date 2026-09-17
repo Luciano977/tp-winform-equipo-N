@@ -10,27 +10,21 @@ using System.Windows.Forms;
 
 namespace TPWinForm_EquipoN
 {
-    public partial class Form1 : Form
+    public partial class MenuArticulos : Form
     {
-        public Form1()
+        public MenuArticulos()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void Articulos_Load(object sender, EventArgs e)
         {
 
-        }
-
-        private void btArticulos_Click(object sender, EventArgs e)
-        {
-            MenuArticulos ventana = new MenuArticulos();
-            ventana.ShowDialog();
         }
 
         private void btSalir_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            this.Close();
         }
     }
 }
