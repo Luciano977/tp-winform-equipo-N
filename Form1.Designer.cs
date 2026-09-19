@@ -80,6 +80,7 @@
             this.btMarcas.TabIndex = 3;
             this.btMarcas.Text = "Marcas";
             this.btMarcas.UseVisualStyleBackColor = true;
+            this.btMarcas.Click += new System.EventHandler(this.btMarcas_Click);
             // 
             // btCategorias
             // 

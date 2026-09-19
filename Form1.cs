@@ -35,7 +35,13 @@ namespace TPWinForm_EquipoN
 
         private void btCategorias_Click(object sender, EventArgs e)
         {
-             FrmCategorias ventana = new FrmCategorias();
+            FrmCategorias ventana = new FrmCategorias();
+            ventana.ShowDialog();
+        }
+
+        private void btMarcas_Click(object sender, EventArgs e)
+        {
+            FrmMarcas ventana = new FrmMarcas();
             ventana.ShowDialog();
         }
     }
