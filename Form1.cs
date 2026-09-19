@@ -32,5 +32,11 @@ namespace TPWinForm_EquipoN
         {
             Application.Exit();
         }
+
+        private void btMarcas_Click(object sender, EventArgs e)
+        {
+            FrmMarcas ventana = new FrmMarcas();    
+            ventana.ShowDialog();
+        }
     }
 }

@@ -48,6 +48,12 @@
   <ItemGroup>
     <Compile Include="Articulos.cs" />
     <Compile Include="Categorias.cs" />
+    <Compile Include="FrmMarcas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMarcas.Designer.cs">
+      <DependentUpon>FrmMarcas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Imagenes.cs" />
     <Compile Include="Marcas.cs" />
     <Compile Include="MenuArticulos.cs">
@@ -64,6 +70,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmMarcas.resx">
+      <DependentUpon>FrmMarcas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MenuArticulos.resx">
       <DependentUpon>MenuArticulos.cs</DependentUpon>
     </EmbeddedResource>

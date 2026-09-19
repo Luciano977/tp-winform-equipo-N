@@ -40,9 +40,10 @@
             // 
             this.lbSistGest.AutoSize = true;
             this.lbSistGest.Font = new System.Drawing.Font("Microsoft YaHei UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbSistGest.Location = new System.Drawing.Point(247, 39);
+            this.lbSistGest.Location = new System.Drawing.Point(185, 32);
+            this.lbSistGest.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbSistGest.Name = "lbSistGest";
-            this.lbSistGest.Size = new System.Drawing.Size(286, 37);
+            this.lbSistGest.Size = new System.Drawing.Size(228, 30);
             this.lbSistGest.TabIndex = 0;
             this.lbSistGest.Text = "Sistema de Gestion";
             // 
@@ -50,18 +51,20 @@
             // 
             this.lbMenuPrincipal.AutoSize = true;
             this.lbMenuPrincipal.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbMenuPrincipal.Location = new System.Drawing.Point(311, 105);
+            this.lbMenuPrincipal.Location = new System.Drawing.Point(233, 85);
+            this.lbMenuPrincipal.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbMenuPrincipal.Name = "lbMenuPrincipal";
-            this.lbMenuPrincipal.Size = new System.Drawing.Size(164, 27);
+            this.lbMenuPrincipal.Size = new System.Drawing.Size(131, 22);
             this.lbMenuPrincipal.TabIndex = 1;
             this.lbMenuPrincipal.Text = "Menu Principal";
             // 
             // btArticulos
             // 
             this.btArticulos.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btArticulos.Location = new System.Drawing.Point(85, 193);
+            this.btArticulos.Location = new System.Drawing.Point(64, 157);
+            this.btArticulos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btArticulos.Name = "btArticulos";
-            this.btArticulos.Size = new System.Drawing.Size(150, 60);
+            this.btArticulos.Size = new System.Drawing.Size(112, 49);
             this.btArticulos.TabIndex = 2;
             this.btArticulos.Text = "Articulos";
             this.btArticulos.UseVisualStyleBackColor = true;
@@ -70,19 +73,22 @@
             // btMarcas
             // 
             this.btMarcas.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btMarcas.Location = new System.Drawing.Point(316, 193);
+            this.btMarcas.Location = new System.Drawing.Point(237, 157);
+            this.btMarcas.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btMarcas.Name = "btMarcas";
-            this.btMarcas.Size = new System.Drawing.Size(150, 60);
+            this.btMarcas.Size = new System.Drawing.Size(112, 49);
             this.btMarcas.TabIndex = 3;
             this.btMarcas.Text = "Marcas";
             this.btMarcas.UseVisualStyleBackColor = true;
+            this.btMarcas.Click += new System.EventHandler(this.btMarcas_Click);
             // 
             // btCategorias
             // 
             this.btCategorias.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btCategorias.Location = new System.Drawing.Point(585, 193);
+            this.btCategorias.Location = new System.Drawing.Point(439, 157);
+            this.btCategorias.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btCategorias.Name = "btCategorias";
-            this.btCategorias.Size = new System.Drawing.Size(150, 60);
+            this.btCategorias.Size = new System.Drawing.Size(112, 49);
             this.btCategorias.TabIndex = 4;
             this.btCategorias.Text = "Categorias";
             this.btCategorias.UseVisualStyleBackColor = true;
@@ -90,9 +96,10 @@
             // btSalir
             // 
             this.btSalir.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btSalir.Location = new System.Drawing.Point(625, 369);
+            this.btSalir.Location = new System.Drawing.Point(469, 300);
+            this.btSalir.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btSalir.Name = "btSalir";
-            this.btSalir.Size = new System.Drawing.Size(110, 39);
+            this.btSalir.Size = new System.Drawing.Size(82, 32);
             this.btSalir.TabIndex = 5;
             this.btSalir.Text = "Salir";
             this.btSalir.UseVisualStyleBackColor = true;
@@ -100,15 +107,16 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(600, 366);
             this.Controls.Add(this.btSalir);
             this.Controls.Add(this.btCategorias);
             this.Controls.Add(this.btMarcas);
             this.Controls.Add(this.btArticulos);
             this.Controls.Add(this.lbMenuPrincipal);
             this.Controls.Add(this.lbSistGest);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
