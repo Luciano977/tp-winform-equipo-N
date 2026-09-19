@@ -47,7 +47,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Articulos.cs" />
-    <Compile Include="Categorias.cs" />
+    <Compile Include="Categoria.cs" />
+    <Compile Include="frmAltaCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAltaCategoria.Designer.cs">
+      <DependentUpon>frmAltaCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCategorias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCategorias.Designer.cs">
+      <DependentUpon>FrmCategorias.cs</DependentUpon>
+    </Compile>
     <Compile Include="Imagenes.cs" />
     <Compile Include="Marcas.cs" />
     <Compile Include="MenuArticulos.cs">
@@ -64,6 +76,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAltaCategoria.resx">
+      <DependentUpon>frmAltaCategoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCategorias.resx">
+      <DependentUpon>FrmCategorias.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MenuArticulos.resx">
       <DependentUpon>MenuArticulos.cs</DependentUpon>
     </EmbeddedResource>
