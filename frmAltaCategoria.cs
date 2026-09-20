@@ -37,10 +37,18 @@ namespace TPWinForm_EquipoN
 
         private void btnAceptar_Click(object sender, EventArgs e)
         {
-            //Se arma el objeto Categoria con el texto que escribió el usuario
-            if (categoria == null) categoria = new Categoria();
-            categoria.Descripcion = txtDescripcion.Text; 
-            MessageBox.Show("Categoría '" + categoria.Descripcion + "' lista para guardar (Id: " + categoria.Id + ")");
+            if (categoria == null)
+                categoria = new Categoria();
+
+            categoria.Descripcion = txtDescripcion.Text;
+
+            CategoriaNegocio negocio = new CategoriaNegocio();
+
+            if (categoria.Id != 0)
+                negocio.modificar(categoria);
+            else
+                negocio.agregar(categoria);
+
             Close();
         }
 
