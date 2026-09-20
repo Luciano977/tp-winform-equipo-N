@@ -4,9 +4,8 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Forms;
 
-namespace TPWinForm_EquipoN
+namespace dominio
 {
     public class Categoria
     {

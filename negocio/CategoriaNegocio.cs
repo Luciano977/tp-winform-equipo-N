@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using dominio;
 
-namespace TPWinForm_EquipoN
+
+namespace negocio
 {
     public class CategoriaNegocio
     {

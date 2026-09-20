@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Data.SqlClient;
 
-namespace TPWinForm_EquipoN
+namespace negocio
 {
     public class AccesoDatos
     {

@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using dominio;
+using negocio;
 
 namespace TPWinForm_EquipoN
 {
@@ -37,6 +39,12 @@ namespace TPWinForm_EquipoN
 
         private void btnAceptar_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrWhiteSpace(txtDescripcion.Text))
+            {
+                MessageBox.Show("La descripción es obligatoria.", "Atención", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
             if (categoria == null)
                 categoria = new Categoria();
 

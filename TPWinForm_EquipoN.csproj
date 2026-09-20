@@ -46,10 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AccesoDatos.cs" />
     <Compile Include="Articulos.cs" />
-    <Compile Include="Categoria.cs" />
-    <Compile Include="CategoriaNegocio.cs" />
     <Compile Include="frmAltaCategoria.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -120,6 +117,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="dominio\dominio.csproj">
+      <Project>{f5af5d03-9343-4a8d-8ac1-9eafa039d9c1}</Project>
+      <Name>dominio</Name>
+    </ProjectReference>
+    <ProjectReference Include="negocio\negocio.csproj">
+      <Project>{5a430c1f-953d-4d3f-b39e-e108a2ae1fbf}</Project>
+      <Name>negocio</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

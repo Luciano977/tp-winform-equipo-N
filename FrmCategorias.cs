@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using dominio;
+using negocio;
 
 namespace TPWinForm_EquipoN
 {
@@ -81,6 +83,11 @@ namespace TPWinForm_EquipoN
         }
 
         private void txtBuscar_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dgvCategorias_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
