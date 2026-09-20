@@ -1,0 +1,23 @@
+GitHub
+acccesos y comandos
+creo una carpeta en GitHub/ dentro de ella voy a Code, desplazo y mas abajo da una dirección, la copio
+
+en la carpeta donde tengo el repositorio abro con botón derecho menú y elijo 
+Open Git Bash Here (se abre la consola de comandos)
+
+Debo moverme con los comandos de DOS a la carpeta que elegi de repositorio
+Alli ya puedo usar los siguientes comandos
+git clone (agrego la dirección copiada de la pagina) y trae todo lo que esta en la carpeta
+
+
+git status (informa archivos si se no se subieron al servidor)
+
+git add . (prepara todos los archivos para subir)
+git status (nos dice cuales están listos para subir)
+
+ahora hay que commitear
+
+git commit -m "Primera subida" (genera la versión lista para subir)
+
+git status (muestra listo para subir con el comit)
+git push (sube al servidor los archivos preparados)

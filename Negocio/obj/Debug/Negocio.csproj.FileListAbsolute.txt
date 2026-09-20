@@ -1,0 +1,9 @@
+C:\Users\Luciano\Desktop\Proyectos C#\Negocio\bin\Debug\Negocio.dll
+C:\Users\Luciano\Desktop\Proyectos C#\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Luciano\Desktop\Proyectos C#\Negocio\bin\Debug\ClassLibrary1.dll
+C:\Users\Luciano\Desktop\Proyectos C#\Negocio\bin\Debug\ClassLibrary1.pdb
+C:\Users\Luciano\Desktop\Proyectos C#\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\Luciano\Desktop\Proyectos C#\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Luciano\Desktop\Proyectos C#\Negocio\obj\Debug\Negocio.csproj.Up2Date
+C:\Users\Luciano\Desktop\Proyectos C#\Negocio\obj\Debug\Negocio.dll
+C:\Users\Luciano\Desktop\Proyectos C#\Negocio\obj\Debug\Negocio.pdb

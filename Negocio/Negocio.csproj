@@ -7,8 +7,8 @@
     <ProjectGuid>{CF8B1CBE-3861-4ECF-87B4-CE701D3BA8AD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>negocio</RootNamespace>
-    <AssemblyName>negocio</AssemblyName>
+    <RootNamespace>Negocio</RootNamespace>
+    <AssemblyName>Negocio</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -42,13 +42,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AccesoDatos.cs" />
+    <Compile Include="ArticulosNegocio.cs" />
     <Compile Include="CategoriaNegocio.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\dominio\dominio.csproj">
-      <Project>{f5af5d03-9343-4a8d-8ac1-9eafa039d9c1}</Project>
-      <Name>dominio</Name>
+    <ProjectReference Include="..\ClassLibrary1\Dominio.csproj">
+      <Project>{2f1694da-52f5-44f5-ac37-83d49b082115}</Project>
+      <Name>Dominio</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

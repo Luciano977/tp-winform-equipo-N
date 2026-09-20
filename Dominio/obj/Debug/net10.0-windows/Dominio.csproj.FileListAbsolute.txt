@@ -1,0 +1,4 @@
+C:\Users\Luciano\Desktop\Proyectos C#\Dominio\obj\Debug\net10.0-windows\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Luciano\Desktop\Proyectos C#\Dominio\obj\Debug\net10.0-windows\Dominio.AssemblyInfoInputs.cache
+C:\Users\Luciano\Desktop\Proyectos C#\Dominio\obj\Debug\net10.0-windows\Dominio.AssemblyInfo.cs
+C:\Users\Luciano\Desktop\Proyectos C#\Dominio\obj\Debug\net10.0-windows\Dominio.csproj.CoreCompileInputs.cache
